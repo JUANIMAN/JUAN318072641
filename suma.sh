@@ -7,8 +7,7 @@ read b
 
 suma() {
   result=$(($1 + $2))
+  return $result
 }
 
-suma $a $b
-
-
+echo "$(suma $a $b)"
