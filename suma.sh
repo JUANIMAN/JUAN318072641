@@ -5,9 +5,4 @@ read a
 echo "Introduce el segundo numero"
 read b
 
-suma() {
-  result=$(($1 + $2))
-  return $result
-}
-
-echo "$(suma $a $b)"
+echo "$(($a + $b))
